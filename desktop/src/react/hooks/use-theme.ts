@@ -12,6 +12,8 @@ const THEME_FILES: Record<string, string> = {
   'grass-aroma': 'themes/grass-aroma.css',
   'contemplation': 'themes/contemplation.css',
   'absolutely': 'themes/absolutely.css',
+  'delve': 'themes/delve.css',
+  'deep-think': 'themes/deep-think.css',
 };
 
 export const THEME_LIST = Object.keys(THEME_FILES);

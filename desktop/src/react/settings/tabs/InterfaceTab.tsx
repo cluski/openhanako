@@ -55,6 +55,8 @@ export function InterfaceTab() {
                 'grass-aroma': 'settings.appearance.grassAroma',
                 'contemplation': 'settings.appearance.contemplation',
                 'absolutely': 'settings.appearance.absolutely',
+                'delve': 'settings.appearance.delve',
+                'deep-think': 'settings.appearance.deepThink',
                 'auto': 'settings.appearance.auto',
               };
               const modeKeys: Record<string, string> = {
@@ -64,6 +66,8 @@ export function InterfaceTab() {
                 'grass-aroma': 'settings.appearance.grassAromaMode',
                 'contemplation': 'settings.appearance.contemplationMode',
                 'absolutely': 'settings.appearance.absolutelyMode',
+                'delve': 'settings.appearance.delveMode',
+                'deep-think': 'settings.appearance.deepThinkMode',
                 'auto': 'settings.appearance.autoMode',
               };
               return (

@@ -5770,6 +5770,32 @@ body.resizing .jian-sidebar-inner {
     color: #B5846E;
 }
 
+/* Delve：ChatGPT 冷白 + 哑光绿 */
+.theme-card[data-theme="delve"] {
+    background: #FFFFFF;
+}
+
+.theme-card[data-theme="delve"] .theme-card-name {
+    color: #1A1A1A;
+}
+
+.theme-card[data-theme="delve"] .theme-card-mode {
+    color: #74AA9C;
+}
+
+/* Deep Think：DeepSeek 白底 + 电光蓝 */
+.theme-card[data-theme="deep-think"] {
+    background: #FCFCFD;
+}
+
+.theme-card[data-theme="deep-think"] .theme-card-name {
+    color: #1D1D1F;
+}
+
+.theme-card[data-theme="deep-think"] .theme-card-mode {
+    color: #4D6BFE;
+}
+
 /* 自动：左暖纸右蓝调，硬拼色 */
 .theme-card[data-theme="auto"] {
     background: #F4F0E4;

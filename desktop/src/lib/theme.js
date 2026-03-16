@@ -13,6 +13,8 @@ const _THEME_FILES = {
   "grass-aroma": "themes/grass-aroma.css",
   "contemplation": "themes/contemplation.css",
   "absolutely": "themes/absolutely.css",
+  "delve": "themes/delve.css",
+  "deep-think": "themes/deep-think.css",
 };
 
 function systemPreferredTheme() {
