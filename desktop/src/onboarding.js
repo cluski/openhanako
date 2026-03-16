@@ -337,7 +337,6 @@ async function saveProvider() {
           base_url: state.providerUrl,
           api_key: state.apiKey,
           api: state.providerApi,
-          models: [],
         },
       },
     }),

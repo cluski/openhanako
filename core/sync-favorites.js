@@ -156,7 +156,8 @@ export function syncFavoritesToModelsJson(configPath, opts = {}) {
   for (const mid of mustKeep) {
     const prov = modelToProvider.get(mid);
     if (!prov) {
-      throw new Error(`模型 "${mid}" 未绑定任何 provider，请先在供应商设置中显式关联`);
+      console.warn(`\x1b[33m  [sync] 模型 "${mid}" 未绑定 provider，跳过\x1b[0m`);
+      continue;
     }
     if (!providerModels.has(prov)) providerModels.set(prov, new Set());
     providerModels.get(prov).add(mid);

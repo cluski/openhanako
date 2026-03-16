@@ -38,7 +38,7 @@ let channelMentionDropdown: HTMLElement | null = null;
 
 // ── 模块内部状态 ──
 
-let _channelsEnabled = localStorage.getItem('hana-channels-enabled') !== 'false';
+let _channelsEnabled = localStorage.getItem('hana-channels-enabled') === 'true';
 let _sendingChannelMsg = false;
 let _mentionActive = false;
 let _mentionStartPos = -1;

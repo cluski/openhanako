@@ -297,15 +297,7 @@ export class ConfigCoordinator {
     // agent 负责：写磁盘、刷新身份、刷新模块、重建 prompt
     agent.updateConfig(partial);
 
-    // 模型同步
-    if (partial.models) {
-      try {
-        await this.syncModelsAndRefresh();
-      } catch (err) {
-        console.error("[config] favorites sync failed:", err.message);
-      }
-    }
-
+    // 切换聊天模型：不需要 sync，模型早已注册
     if (partial.models?.chat) {
       const newModel = models.availableModels.find(m => m.id === partial.models.chat);
       if (newModel) {
